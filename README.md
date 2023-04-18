@@ -5,7 +5,7 @@
 
 ### Project Information
 
-The project is a real-time web-based typing game called "Type Racer". The goal of the game is to bring people to a specific room and give them a randomly generated text, which they all start typing as fast as possible. The website records their Word Per Minute (WPM) and speed and makes a leaderboard at the end. The project uses websockets and RestAPI to handle the real-time communication between the players and the server. The server keeps track of the game state, including the text to be typed, the scores of the players, and the current leaderboard. The client-side JavaScript code handles the user interface of the game and interacts with the server through websockets to update the game state and display the results to the players.
+The project is a real-time web-based typing game called "Type Racer". The goal of the game is to bring people to a specific room and give them a randomly generated text, which they all start typing as fast as possible. The website records their typing speed (WPM) as well as the time it took to complete and makes a leaderboard at the end. The project uses websockets and RestAPI to handle the real-time communication between the players and the server. The server keeps track of the game state, including the text to be typed, the scores of the players, and the current leaderboard. The client-side JavaScript code handles the user interface of the game and interacts with the server through websockets to update the game state and display the results to the players.
 
 The code was adapted from (https://github.com/WebDevSimplified/JS-Speed-Typing-Game), This guided the work
 
@@ -98,12 +98,3 @@ This figure is the ResourceAPI Configuration used to run the game
 
 &nbsp;
 
-
-### Credits
-
-This assignment was completed by:
-
-- Parsa Zahraei Mohammadabady 100749173
-- Clayton Cotter-Wasmund 100824037
-- Daniel Baba 100828105
-- Raihan Mosharrof 100823087
